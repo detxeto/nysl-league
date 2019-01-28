@@ -1,0 +1,104 @@
+/*nysl_3*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/** NUEVO **/
+/*header*/
+.photo2 {
+    background-image: url(../images/design2_image1.jpg);
+    width: 100%;
+    height: 310px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    text-align: left;
+    margin-top: 50px;
+
+
+}
+
+
+.titol {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin: 0px;
+
+}
+
+.photo2 img {
+    position: absolute;
+    top: 400px;
+    width: 80px;
+
+}
+
+/*h2*/
+.baner {
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+
+}
+
+/*main*/
+.inlineBlock {
+
+    position: absolute;
+    top: 40px;
+    padding-left: 800px;
+
+}
+
+.inlineBlock2 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+main {}
+
+nav a {
+    background-color: orangered;
+
+    text-align: center;
+    color: white;
+
+}
+
+nav {
+    width: 25%;
+    margin-left: 25px;
+    height: 50px;
+}
+
+
+
+
+.t1 {
+
+    margin-top: 20px;
+    margin-left: 300px;
+
+    position: relative;
+}
+
+div p {
+    padding-left: 20px;
+}
+
+.t2 {
+    width: 100%;
+    height: 50px;
+}
+
+.t3 {
+    display: inline-block;
+    width: 70%;
+    margin-bottom: 50px;
+    background-color: white;
+}

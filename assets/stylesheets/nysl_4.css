@@ -1,0 +1,653 @@
+/*nysl_3(diseño propio)*/
+/*header*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-color: black;
+
+}
+
+header {
+
+    background-image: url(../images/b7925a9d-d673-d8af-bfa9-5339f18402aa_1000.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    padding-top: 30px;
+}
+
+header:hover {
+    filter: grayscale(80%);
+}
+
+
+header img {
+    position: absolute;
+    top: 270px;
+    width: 150px;
+    left: 50px;
+
+
+}
+
+
+
+
+
+
+.photo3 img {
+    position: absolute;
+    top: 270px;
+    width: 150px;
+    left: 50px;
+
+}
+
+h1 {
+    position: relative;
+    top: -30px;
+
+}
+
+/*/header*/
+/*main*/
+.baner {
+    background-color: orangered;
+    color: #212112;
+
+    text-align: center;
+    font-family: fantasy;
+    font-style: normal;
+    border-style: solid;
+    border-color: greenyellow;
+
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.baner2 {
+    background-color: orangered;
+    color: #212112;
+
+    text-align: center;
+    font-family: fantasy;
+    font-style: normal;
+    border-style: solid;
+    border-color: greenyellow;
+
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main {
+    padding-top: 0px;
+    background-color: black;
+    background-size: cover;
+    height: 60%;
+    vertical-align: top;
+    background-image: url(../images/fondo%20ball.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+nav {
+    width: 19%;
+
+    text-align: center;
+    margin-bottom: 90px;
+    
+
+}
+
+nav a {
+    display: block;
+    width: 100px;
+    height: 27px;
+    margin-left: 75px;
+    text-align: center;
+    border-style: solid;
+    border-color: greenyellow;
+    border-radius: 80px;
+    background-color: yellowgreen;
+    font-family: cursive;
+    color: gainsboro;
+    text-decoration: none;
+    margin-bottom: 20px;
+
+}
+
+.inlineBlock {
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: top;
+    padding-top: 90px;
+
+}
+
+a:hover {
+    background-color: black;
+
+}
+
+a:active {
+    background-color: darkgray;
+}
+
+
+a:visited {
+    background-color:orangered;
+}
+
+.t1 {
+    vertical-align: top;
+    position: relative;
+    margin top: 90px;
+    text-align: center;
+    font-size: 130%;
+    border: 4px inset;
+    display: inline-block;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-color: greenyellow;
+    border-left-color: greenyellow;
+    border-bottom-color: greenyellow;
+    width: 50%;
+    height: 290px;
+    margin-top: 92px;
+    margin-bottom: 80px;
+    overflow-y: scroll;
+    background-color: white;
+    font-family: cursive;
+    padding-left: 20px;
+    font-style: normal;
+    font-family: serif;
+    font-weight: 1000;
+    color: black;
+    background-color: black;
+    padding-top: 80px;
+    background-image: url(../images/corner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.t2 {
+    /*
+    color: black;
+
+    display: inline-block;
+    width: 50%;
+
+    padding-left: 60px;
+    font-family: serif;
+    padding-top: 90px;
+*/
+    font-size: 130%;
+
+    border: 4px inset;
+    display: inline-block;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-color: greenyellow;
+    border-left-color: greenyellow;
+    border-bottom-color: greenyellow;
+    width: 50%;
+    height: 290px;
+    margin-top: 92px;
+    margin-bottom: 80px;
+    overflow-y: scroll;
+
+    padding-left: 10px;
+    font-style: normal;
+    font-family: serif;
+    font-weight: 1000;
+    color: black;
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url(../images/corner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+div h3 {
+    font-size: 30px;
+}
+
+.t3 {
+
+
+    /*
+    display: inline-block;
+    padding-bottom: 190px;
+    padding-left: 220px;
+    padding-top: 220px;
+    color: black;
+    font-family: serif;
+    width: 30%;
+    height: 120px;
+*/
+
+    text-align: center;
+    font-size: 130%;
+
+    border: 4px inset;
+    display: inline-block;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-color: greenyellow;
+    border-left-color: greenyellow;
+    border-bottom-color: greenyellow;
+    width: 40%;
+    height: 80px;
+    margin-top: 91px;
+    margin-bottom: 80px;
+    overflow-y: scroll;
+    padding-left: 10px;
+    font-style: normal;
+    font-family: serif;
+    font-weight: 1000;
+    color: black;
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url(../images/corner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*rule.html*/
+.rules {
+    border: 4px inset;
+    display: inline-block;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-color: greenyellow;
+    border-left-color: greenyellow;
+    border-bottom-color: greenyellow;
+    width: 60%;
+    height: 360px;
+    margin-top: 92px;
+    margin-bottom: 80px;
+    overflow-y: scroll;
+    background-color: white;
+    font-family: cursive;
+    padding-left: 20px;
+    font-style: normal;
+    font-family: serif;
+    color: gainsboro;
+    background-color: black;
+}
+
+/*
+
+div dt {
+    font-weight: 600;
+}
+
+div dd {
+    list-style-type: square;
+}
+*/
+
+div h3 {
+    text-align: center;
+}
+
+div h5 {
+    text-align: center;
+}
+
+.letras {
+    list-style-type: lower-latin;
+    padding-left: 15px;
+}
+
+.cuadros {
+    list-style-type: square;
+    padding-left: 10px;
+}
+
+.numeros {
+    list-style-type: decimal;
+    padding-left: 30px;
+}
+
+.circulos {
+    list-style-type: circle;
+    padding-left: 10px;
+}
+
+/*info.html*/
+table {
+    border-collapse: separate;
+
+    font-style: normal;
+    font-family: serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 20px;
+    border-spacing: 5px;
+
+
+}
+
+/*
+
+th,
+td {
+    border: 1px solid #cecfd5;
+*/
+}
+
+.top {
+    font-size: 170%;
+    font-weight: bold;
+    font-style: normal;
+    font-family: serif;
+}
+
+.cursiva {
+    font-style: oblique;
+    text-align: left;
+    font-weight: 200;
+    font-weight: bold;
+}
+
+caption {
+    text-align: left;
+    text-decoration: underline #515660;
+    font-style: oblique;
+    font-weight: 500;
+}
+
+.titulos {
+    text-align: center;
+    text-decoration: underline #515660;
+
+}
+
+.zelda {
+    text-align: left;
+}
+
+.zelda2 {
+    text-align: left;
+}
+
+.sub {
+    text-decoration: underline #515660;
+}
+
+tr td {
+    vertical-align: top;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*form.html*/
+
+.form {
+    border: 4px inset;
+    display: inline-flex;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-color: greenyellow;
+    border-left-color: greenyellow;
+    border-bottom-color: greenyellow;
+    width: 60%;
+    height: 360px;
+    margin-top: 92px;
+    margin-bottom: 80px;
+    overflow-y: scroll;
+    background-color: white;
+
+    padding-left: 20px;
+    font-style: normal;
+    font-family: serif;
+
+    color: gainsboro;
+    background-color: black;
+}
+
+.formulario {
+    display: block;
+
+
+
+    width: 100%;
+
+
+}
+
+.d5 {
+    display: block;
+    text-align: center;
+    width: 90%;
+    height: 10%;
+    align-content: space-around;
+    margin: 15px;
+}
+
+
+
+
+.d2 {
+    display: inline-flex;
+    width: 45%;
+    height: 10%;
+    flex-wrap: wrap;
+    align-content: space-around;
+    margin: 15px;
+}
+
+.d3 {
+    display: flex;
+    width: 85%;
+    height: 10%;
+    align-content: space-around;
+    margin: 15px;
+}
+
+.d4 {
+    display: flex;
+    width: 25%;
+    height: 10%;
+    flex-wrap: wrap;
+    padding-left: 70%;
+    align-content: space-around;
+    margin: 15px;
+}
+
+.d6 {
+    display: inline-flex;
+    width: 45%;
+    height: 10%;
+    flex-wrap: wrap;
+    align-content: space-around;
+    margin: 15px;
+}
+
+input[type=text] {
+    width: 50%;
+    border-radius: 15px;
+}
+
+input[type=date] {
+    border-radius: 15px;
+}
+
+input[type=datetime] {
+    border-radius: 15px;
+}
+
+input[type=datetime] {
+    border-radius: 15px;
+}
+
+input[type=checkbox] {
+    border-radius: 15px;
+}
+
+input[type=tel] {
+    border-radius: 15px;
+}
+
+input[type=email] {
+    border-radius: 15px;
+}
+
+select {
+    border-radius: 15px;
+}
+
+
+
+span  {
+    display: inline-flex;
+    flex-flow: column;
+    width: 18%;
+    height: 18%;
+    margin-left: 50px;
+    margin-top: 150px;
+    vertical-align: top;
+
+
+}
+
+span a{display: inline-flex;
+    width: 70px;
+    height: 70px;
+    margin-left: 50px;
+    
+
+    border: solid 5px;
+    border-radius: 15px;
+    border-color: yellowgreen;
+    background-image: url(../images/enelope.jpg);
+    background-size: cover;}
+
+.ball {
+    display: inline-flex;
+ background-image: url(../images/facebook.png);
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    
+    
+   
+    border: solid 5px;
+    border-radius: 15px;
+    border-color: yellowgreen;
+    
+}
+.ball2{display: inline-flex;
+ background-image: url(../images/facebook.png);
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    
+    
+   
+    border: solid 5px;
+    border-radius: 15px;
+    border-color: yellowgreen;}
+
+button {
+    background-color: orangered;
+    border: solid 5px;
+    border-color: black;
+    border-radius: 10px;
+    font-family: serif;
+    width: 120px;
+}
+
+/*show_data.html*/
+.data {
+    background-image: url(../images/gol-1476.jpg);
+
+    background-size: cover;
+
+    display: flex;
+    width: 100%;
+
+
+}
+
+.table1 {
+    border-color: white;
+    border-radius: 15px;
+    align-items: center;
+    width: 30%;
+    font-family: serif;
+    color: gainsboro;
+    background-color: black;
+
+
+}
+
+
+
+/*/main*/
+/*footer*/
+.footer {
+    background-color: black;
+    background-size: cover;
+    top: 80px;
+    font-family: cursive;
+}
+
+.footertext {
+    color: yellowgreen;
+    text-align: right;
+    width: 100%;
+    height: 25%;
+    top: 80px;
+    border-top-style: solid;
+    border-color: orangered;
+    border-bottom-color: black;
+    border-radius: 15px;
+}
+
+/*
+.footer2 {
+    background-color: black;
+    background-size: cover;
+    top: 150px;
+    font-family: cursive;
+    position: relative;
+}
+*/
+
+/*/footer*/

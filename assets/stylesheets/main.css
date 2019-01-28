@@ -1,0 +1,32 @@
+
+    .poto{background-image:linear-gradient}
+
+    .menu{
+    ;
+    background:fuchsia;
+        padding-left: 300px
+    
+}
+.photo1{
+  ;background:black ;
+}
+.titol{background:blue;
+    display: inline;
+   padding-left: 5px;
+}
+.photo2 {background: red;display:inline-table;}    
+    
+
+.subtittle{
+    background:green;
+}
+
+
+
+.t1{background: yellow;
+    ;display: inline-block;
+}
+.foto2{background: yellow;
+display: inline}
+.t2{background: red;
+display: inline-block;}
